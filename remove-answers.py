@@ -3,7 +3,7 @@ import re
 import sys
 
 regex_vals = {'markdown': r'^\s*#+\s+answer\s+\d+',
-              'code':  r'^\s*#+\s*answer'}
+              'code':  r'^\s*#+\s*answer\s+cell'}
 
 req_ext = '.ipynb'
 
